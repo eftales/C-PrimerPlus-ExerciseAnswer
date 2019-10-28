@@ -2,7 +2,7 @@
 
 double C2F(double C)
 {
-    return C * 1.8 + 32;
+    return C * 1.8 + 32.0;
 }
 
 int main()
