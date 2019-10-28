@@ -1,5 +1,8 @@
 #include<iostream>
-void format_time(int hours,int minutes);
+void format_time(int hours,int minutes)
+{
+    std::cout<<"Time: "<<hours<<":"<<minutes<<std::endl;
+}
 int main()
 {
     int hours,minutes;
@@ -11,9 +14,4 @@ int main()
     format_time(hours,minutes);
     return 0;
 
-}
-
-void format_time(int hours,int minutes)
-{
-    std::cout<<"Time: "<<hours<<":"<<minutes<<std::endl;
 }
